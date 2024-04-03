@@ -13,6 +13,14 @@ div {
     text-align: center;
 }
 
+.button {
+    width: 100px
+}
+
+.button:hover {
+    background-color: green;
+}
+
 .question-area {
     color: black;
     width: 50%;
