@@ -1,0 +1,40 @@
+body {
+    background: whitesmoke;
+    font-family: "Inter", sans-serif;
+    color: green;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+div {
+    text-align: center;
+}
+
+.question-area {
+    color: black;
+    width: 50%;
+    font-size: 2rem;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.answer-area {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto;
+    
+    box-sizing: border-box;
+    width: 800px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    
+    background-color: lightgrey;
+    border: 2px solid green;
+}
